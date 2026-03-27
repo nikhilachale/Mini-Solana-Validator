@@ -1,0 +1,19 @@
+{
+  "name": "mini-solana-validator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --import tsx index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2",
+    "@types/node": "^24.5.2",
+    "@types/express": "^5.0.3"
+  }
+}
